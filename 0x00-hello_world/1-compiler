@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -compile-only -o $OBJECT_FILE $CFILE
+gcc -c $CFILE
