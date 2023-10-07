@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - be main block
- * Description: pick a random number and check its last digit, compare it with 5
+ * Description: pick a number and check its last digit, compare it with 5
  * Return: 0
  */
 int main(void)
