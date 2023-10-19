@@ -14,7 +14,9 @@ int _strcmp(char *s1, char *s2)
 int i;
 
 /**
- * Have reached the end of S1 OR end of S2
+ * _strcmp - should compare two strings
+  * @s2: string two
+ * Have reached the end of S1 OR had to have reached end of S2
 */
 
 for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
