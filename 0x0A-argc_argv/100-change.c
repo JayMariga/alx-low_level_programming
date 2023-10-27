@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 /**
- * main - Should print the minimum number of coins to 
+ * main - Should print the minimum number of coins to
  * make change for an amount of money
  * @argc: The number of  args
  * @argv: Will be the arr args
@@ -54,5 +54,4 @@ if (value % 1 >= 0)
 }
 printf("%d\n", c);
 return (0);
-
 }
