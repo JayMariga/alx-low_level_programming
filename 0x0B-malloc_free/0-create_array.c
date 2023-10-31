@@ -4,7 +4,7 @@
  *create_array - An array that should print a string
  *@size: Is the number elements in the array
  *@c: The character value
-
+ *
  *Return: pointer
  */
 
