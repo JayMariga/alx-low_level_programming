@@ -4,7 +4,7 @@
 /**
  * free_dog - Function that free's dog
  * @d: Is the pointer to dog
- * 
+ *
  */
 
 void free_dog(dog_t *d)
