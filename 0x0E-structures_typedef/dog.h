@@ -1,21 +1,29 @@
-#include "dog.h"
+#ifndef FILE_DOG
+#define FILE_DOG
 
 /**
- * init_dog - Should initialize a variable of type struct dog.
- * @d: Is a pointer to struct type dog
- * @name: Another pointer to char name's dog
- * @age: The age of the dog
- * @owner: Will be pointer to char owner's dog
- *
- * Return: No.
+ * struct dog - Shows the structure dog
+ * @name: Is the pointer to char name's dog
+ * @age: Is the atribute float age's dog
+ * @owner: Is the pointer to char owner's dog
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
-{
-if (d)
-{
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
-}
-}
+struct dog
+{	
+char *name;
+float age;
+char *owner;
+};
+
+typedef struct dog dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+void print_dog(struct dog *d);
+
+dog_t *new_dog(char *name, float age, char *owner);
+
+void free_dog(dog_t *d);
+
+
+#endif
