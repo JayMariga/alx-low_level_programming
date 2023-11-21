@@ -5,7 +5,6 @@
  * delete_nodeint_at_index - Should help delete node at a given positiion.
  * @head: Should be the first node address.
  * @index: The place where the node to delete.
- * 
  * Return: (1) if success.
  **/
 
